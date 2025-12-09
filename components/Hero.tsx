@@ -1,6 +1,8 @@
 import { Spotlight } from "./ui/Spotlight";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/TextGenereateEffect";
+import MagicButton from "./ui/MagicButton";
+import { CgHello } from "react-icons/cg";
 
 function Hero() {
   return (
@@ -39,13 +41,18 @@ function Hero() {
               Dynamic Web Magic with Next.js
             </h1>
 
-            <TextGenerateEffect
-              className=""
-              words="Transforming Concepts into Seamless Experience"
-            />
-            <p className="text-center md:tracking-wider mb-4 text-sm">
-              Hi, I'm Suraj, a Front-End Developer based in Pune
+            <TextGenerateEffect words="Frontend Developer" />
+            <p className="text-center md:tracking-wider mb-4 text-sm text-cyan">
+              Experienced frontend developer with a focus on performance and
+              user experience
             </p>
+            <a href="#about">
+              <MagicButton
+                icon={<CgHello />}
+                position="right"
+                title="Hey There"
+              />
+            </a>
           </div>
         </div>
       </div>
