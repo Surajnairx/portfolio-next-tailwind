@@ -36,7 +36,7 @@ function Hero() {
           <p className="relative z-20 bg-linear-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl"></p>
         </div>
         <div className="flex justify-center relative my-20 z-10">
-          <div className="max-w--[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <div className="max-w--[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center text-center">
             <h1 className="uppercase tracking-widest text-center text-xs text-blue-400">
               Dynamic Web Magic with Next.js
             </h1>
